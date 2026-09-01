@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio de Prácticas - María Lourdes</title>
+  <!-- Vinculación de tu CSS local de Bootstrap -->
+  <link rel="stylesheet" href="plantilla/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados para darle un toque único y profesional */
+    :root {
+      --azul-primario: #2c3e50;
+      --azul-brillante: #1a73e8;
+    }
+    .hero-bg {
+      background: linear-gradient(135deg, var(--azul-primario), #34495e);
+      color: white;
+      border-radius: 0 0 20px 25px;
+    }
+    .btn-visitar {
+      transition: all 0.3s ease;
+    }
+    .btn-visitar:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .item-hover:hover {
+      background-color: #f8f9fa !important;
+    }
+  </style>
+</head>
+<body class="bg-light">
+
+  <!-- CABECERA DE PRESENTACIÓN -->
+  <header class="hero-bg py-5 text-center shadow mb-5">
+    <div class="container">
+      <p class="text-uppercase fw-bold mb-1" style="color: #f1c40f; letter-spacing: 2px;">IESTP Misioneros Monfortianos</p>
+      <h1 class="display-5 fw-bold">Índice de Actividades Prácticas</h1>
+      <p class="lead">Unidad Didáctica: Programación Web 2026</p>
+      <div class="mt-4">
+        <span class="badge bg-light text-dark px-3 py-2 fs-6 shadow-sm">
+          Estudiante: <strong>Huanay Estrada María Lourdes</strong>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="container mb-5">
+    <div class="row g-4">
+
+      <!-- COLUMNA 1: EJEMPLOS DE LA GUÍA OFICIAL (ejem01 - ejem07) -->
+      <section class="col-12 col-md-6">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-header bg-primary text-white py-3">
+            <h3 class="h5 mb-0 fw-bold">📖 Ejemplos de la Guía de Práctica</h3>
+          </div>
+          <div class="list-group list-group-flush">
+            
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-secondary mb-1">Guía 01</span>
+                <h6 class="mb-0 fw-bold">Estructura Base e Integración</h6>
+              </div>
+              <a href="ejem01.html" class="btn btn-sm btn-outline-primary btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-secondary mb-1">Guía 02</span>
+                <h6 class="mb-0 fw-bold">Sistema de Rejillas (Grid)</h6>
+              </div>
+              <a href="ejem02.html" class="btn btn-sm btn-outline-primary btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-secondary mb-1">Guía 03</span>
+                <h6 class="mb-0 fw-bold">Banner Tipográfico</h6>
+              </div>
+              <a href="ejem03.html" class="btn btn-sm btn-outline-primary btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-secondary mb-1">Guía 04</span>
+                <h6 class="mb-0 fw-bold">Listas</h6>
+              </div>
+              <a href="ejem04.html" class="btn btn-sm btn-outline-primary btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-secondary mb-1">Guía 05</span>
+                <h6 class="mb-0 fw-bold">Imágenes y Utilidades (row-cols)</h6>
+              </div>
+              <a href="ejem05.html" class="btn btn-sm btn-outline-primary btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-secondary mb-1">Guía 06</span>
+                <h6 class="mb-0 fw-bold">Tablas y Bordes</h6>
+              </div>
+              <a href="ejem06.html" class="btn btn-sm btn-outline-primary btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-secondary mb-1">Guía 07</span>
+                <h6 class="mb-0 fw-bold">Formulario</h6>
+              </div>
+              <a href="ejem07.html" class="btn btn-sm btn-outline-primary btn-visitar fw-bold">Abrir</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- COLUMNA 2: EJERCICIOS DE CLASE CON EL PROFESOR (ejer01 - ejer07) -->
+      <section class="col-12 col-md-6">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-header bg-dark text-white py-3">
+            <h3 class="h5 mb-0 fw-bold">💻 Ejercicios Desarrollados en Clase</h3>
+          </div>
+          <div class="list-group list-group-flush">
+            
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-success mb-1">Clase 01</span>
+                <h6 class="mb-0 fw-bold">Práctica: Contenedores y Spacing</h6>
+              </div>
+              <a href="ejer01.html" class="btn btn-sm btn-outline-success btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-success mb-1">Clase 02</span>
+                <h6 class="mb-0 fw-bold">Práctica: Rejillas Flexibles</h6>
+              </div>
+              <a href="ejer02.html" class="btn btn-sm btn-outline-success btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-success mb-1">Clase 03</span>
+                <h6 class="mb-0 fw-bold">Práctica: clase contianer</h6>
+              </div>
+              <a href="ejer03.html" class="btn btn-sm btn-outline-success btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-success mb-1">Clase 04</span>
+                <h6 class="mb-0 fw-bold">Práctica: Banner Tipográfico</h6>
+              </div>
+              <a href="ejer04.html" class="btn btn-sm btn-outline-success btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-success mb-1">Clase 05</span>
+                <h6 class="mb-0 fw-bold">Práctica: Menú Lateral Adaptativo</h6>
+              </div>
+              <a href="ejer05.html" class="btn btn-sm btn-outline-success btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-success mb-1">Clase 06</span>
+                <h6 class="mb-0 fw-bold">Práctica: Ficha de Tarjeta Comercial</h6>
+              </div>
+              <a href="ejer06.html" class="btn btn-sm btn-outline-success btn-visitar fw-bold">Abrir</a>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center py-3 item-hover">
+              <div>
+                <span class="badge bg-success mb-1">Clase 07</span>
+                <h6 class="mb-0 fw-bold">Práctica: Formulario Multicolumna</h6>
+                <small class="text-muted">Integración final de campos y botones de matrícula.</small>
+              </div>
+              <a href="ejer07.html" class="btn btn-sm btn-outline-success btn-visitar fw-bold">Abrir</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-1">© 2026 - Huanay Estrada María Lourdes | Programa de Desarrollo de Sistemas</p>
+      <p class="small text-white-50">Docente a Cargo: Lic. Rosell Alejandro Valderrama Chumbes</p>
+    </div>
+  </footer>
+
+  <!-- Vinculación de tu JavaScript local de Bootstrap -->
+  <script src="plantilla/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
